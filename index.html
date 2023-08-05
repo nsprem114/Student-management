@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Management</h1>
+        <div class="body">
+            <input type="text" placeholder="Enter Your Name" name="name" id="name">
+            <input type="text" placeholder="Enter Your Father's Name" name="fname" id="fname">
+            <input type="text" placeholder="Enter Your Roll Number" name="roll" id="roll">
+            <input type="text" placeholder="Enter Your Class Name" name="class" id="class">
+            <input type="text" placeholder="Enter Whst's Your Stream" name="sub" id="sub">
+            <input type="text" placeholder="Auto Generated" name="registration" id="registration" readonly><br>
+            <button class="btn" onclick="getDetails()">Student Details</button>
+        </div>
+        <div class="table-style">
+            <table>
+                <tr>
+                    <th>Name : </th>
+                    <td id="name1"></td>
+                </tr>
+                <tr>
+                    <th>Father's Name : </th>
+                    <td id="fname1"></td>
+                </tr>
+                <tr>
+                    <th>Roll No : </th>
+                    <td id="roll1"></td>
+                </tr>
+                <tr>
+                    <th>Class : </th>
+                    <td id="class1"></td>
+                </tr>
+                <tr>
+                    <th>Subject : </th>
+                    <td id="sub1"></td>
+                </tr>
+                <tr>
+                    <th>Reg Number : </th>
+                    <td id="reg1"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

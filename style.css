@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: crimson;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    margin-top: 150px;
+}
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+.body {
+    background-color: darkslategray;
+    padding: 10px;
+}
+input {
+    width: 45%;
+    height: 35px;
+    margin-top: 5px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 10px;
+    font-size: 15px;
+}
+.btn {
+    width: 90%;
+    color: rgb(236, 247, 236);
+    height: 35px;
+    margin-top: 5px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+}
+.table-style {
+    background-color:sienna;
+    padding: 15px;
+}
+table, tr, th, td {
+    border-collapse: collapse;
+    width: 100vh;
+    height:35px ;
+    text-align: left;
+    border: 1px solid #fff;
+    padding: 5PX;
+    font-size: 20px;
+    margin-left: 30px;
+}
+td {
+    width: 100vh;
+    padding: 5PX;
+}
+@media (max-width: 600px) {
+    input {
+        font-size: 10px;
+    }
+    .table-style {
+        width: 100%;
+    }
+    table, tr, th, td {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    th {
+        font-size: 12px;
+    }
+    td {
+        width: auto;
+    }
+}
+@media (max-width: 800px) {
+    input {
+        font-size: 12px;
+    }
+    .table-style {
+        width: 100%;
+    }
+    table, tr, th, td {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    th {
+        font-size: 14px;
+    }
+    td {
+        width: auto;
+    }
+}
+@media (max-width: 1150px) {
+    input {
+        font-size: 13px;
+    }
+    .table-style {
+        width: 100%;
+    }
+    table, tr, th, td {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    th {
+        font-size: 14px;
+    }
+    td {
+        width: auto;
+    }
+}
